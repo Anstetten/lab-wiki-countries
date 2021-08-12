@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+.mainWrapper{
+  display: flex;
+
+}
+
+
+
+.miniFlag{
+  width: 50px;
+}
+
+.list-group a{
+  display: flex;
+  align-items: center;
+  
+}
+
+.list-item {
+  position: relative;
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.selected{
+  background-color: lightblue;
+}
+
+.borderList{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.borderList li{
+  list-style: disc;
+}
